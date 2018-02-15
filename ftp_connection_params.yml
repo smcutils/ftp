@@ -1,0 +1,21 @@
+#################################
+# GLOBAL
+detail_output: true
+#################################
+# LOCAL
+local_initial_dir: ""
+local_patterns:
+  - "*.*"
+local_backup_dir: ""
+#################################
+# FTP
+ftp_host: "ftp.es.debian.org"
+ftp_port: 21
+ftp_username: "anonymous"
+ftp_password: "anonymous@anonymous.com"
+ftp_use_intermediate_dir: false
+ftp_intermediate_dir: ""
+ftp_final_dir: "/"
+ftp_patterns:
+  - "*.TXT"
+  - "*.txt"
