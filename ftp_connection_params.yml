@@ -15,7 +15,9 @@ ftp_username: "anonymous"
 ftp_password: "anonymous@anonymous.com"
 ftp_use_intermediate_dir: false
 ftp_intermediate_dir: ""
-ftp_final_dir: "/"
+ftp_final_dir:
+ - "/debian/doc/"
+ - "/debian/doc/FAQ/"
 ftp_patterns:
-  - "*.TXT"
+  - "*.gz"
   - "*.txt"
