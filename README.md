@@ -1,4 +1,4 @@
-# ftp
+# ftp [Python scripts to make ftp operations easier]
 
 Making python-ftp capabilities even easier
 
@@ -6,4 +6,8 @@ Making python-ftp capabilities even easier
 
 A simple test connection to ftp.es.debian.org.
 
-The connection parameters are stored in ftp_connection_params.yml file.
+Test/default connection parameters are stored in ftp_connection_params.yml file.
+
+## ftp_list_remote_dir.py
+
+List filenames in specified remote dirs
