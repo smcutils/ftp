@@ -1,6 +1,6 @@
 #################################
 # GLOBAL
-detail_output: true
+detail_output: false
 #################################
 # LOCAL
 local_initial_dir: ""
